@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Samuels to do list</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <header>список задание</header>
+  <main>
+        <section class ='new_exercise'>
+          <label>Новая задача</label>
+          <div>
+            <input id="task_name" name="takName" type="text" placeholder="називание задачи">
+            <button id="add_button" type ="submit">+добавитб</button>
+          </div>
+        </section>
+        <section class="tasks">
+          <ul id="backlog">
+            <div id ="backlog_title">
+              беклог</div>
+              <li>learn js</li>
+              <li>learn react</li>
+              <li>do homework</li>
+          </ul>
+          <ul id ="process">
+            <div id="process_title">в процесс</div>
+            <li>drink smoothie</li>
+            <li>drink water</li>
+          </ul>
+
+          <ul id ="ready">
+            <div id ="ready_title">готово</div>
+            <li>call mom</li>
+            <li>pat the cat</li>
+          </ul>
+
+          <ul id="basket">
+            <div id ="basket_title">корзина</div>
+            <li>go for a walk</li>
+            <li>read a book</li>
+            <button id="clear_button" type="submit">Отчистить</button>
+          </ul>
+
+        </section>
+
+  </main>
+</body>
+</html> 

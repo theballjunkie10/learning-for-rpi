@@ -1,0 +1,114 @@
+
+
+header{
+  background-color: blue;
+  margin:0;
+}
+body{
+  background-color:white;
+  margin:0;
+}
+h1{
+  color:white;
+}
+
+section.new_exercise{
+  width:350px;
+  background-color:white;
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:20px;
+  padding:25px;
+  border-radius:50px;
+}
+.new_exercise label{
+  font-weight:bold;
+  font-size:large;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+section.tasks {
+  display:grid;
+  grid-template-columns: 10% 10% 10% 10%;
+  gap:100px;
+}
+#backlog_title{
+  padding:10px;
+  border-radius:8px;
+  background-color: lightblue;
+  width:55px;
+}
+
+ul li{
+  width:200px;
+  height:30px;
+  background-color: white;
+  padding-left:5px;
+  padding-bottom:5px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+  list-style-type:none;
+  border-radius:5px;
+  border-style:hidden hidden hidden solid;
+}
+
+#backlog li{
+  border-left-color: lightgrey;
+}
+
+#process_title{
+  padding:10px;
+  border-radius: 8px;
+  background-color: lightskyblue;
+  width:80px;
+  text-decoration:aqua;
+}
+#process li{
+  border-left-color: lightskyblue;
+}
+#ready_title{
+  padding:10px;
+  border-radius:8px;
+  background-color:lightgreen;
+  width:80px;
+  text-decoration: lightgreen;
+}
+#ready li{
+  border-left-color: pink;
+}
+#basket_title{
+  padding:10px;
+  border-radius: 10px;
+  background-color: rgb(138, 100, 100);
+  width:80px;
+  text-decoration: pink;
+}
+.basket li{
+border-left-color:purple
+}
+#clear_button{
+  background-color: red;
+  border-radius: 4px;
+  padding:5px;
+  width:200px;
+  color:white;
+  border:none;
+}
+
+#add_button{
+  background-color: blue;
+  border-radius: 4px;
+  padding:8px;
+  width:100px;
+  color:white;
+  border:none;
+}
+#task_name{
+  border-style : solid;
+  border-width : 0.5px;
+  height : 30px;
+  border-radius : 8px;
+  margin: 10px 10px 10px 0px;
+  padding: 5px;
+}
